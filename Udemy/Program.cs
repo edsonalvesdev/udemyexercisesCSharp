@@ -12,7 +12,8 @@ Console.WriteLine("- C6E3 : Matrizes");
 string codigo = Console.ReadLine();
 Console.WriteLine("--------------------------------------------------------------------------");
 
-switch (codigo) {
+switch (codigo)
+{
     case "C4E1":
         Pessoa p1 = new Pessoa();
         Pessoa p2 = new Pessoa();
@@ -29,9 +30,12 @@ switch (codigo) {
         Console.Write("Idade: ");
         p2.Idade = int.Parse(Console.ReadLine());
 
-        if (p1.Idade > p2.Idade) {
+        if (p1.Idade > p2.Idade)
+        {
             Console.WriteLine("Pessoa mais velha: " + p1.Nome);
-        } else {
+        }
+        else
+        {
             Console.WriteLine("Pessoa mais velha: " + p2.Nome);
         }
 
@@ -68,11 +72,14 @@ switch (codigo) {
         Console.Write("Haverá despósito inicial (s/n)?");
         string resp = Console.ReadLine();
 
-        if (resp == "s" || resp == "S") {
+        if (resp == "s" || resp == "S")
+        {
             Console.Write("Entre o valor de depósito inicial: ");
             double saldo = double.Parse(Console.ReadLine());
             conta = new ContaBancaria(numero, titular, saldo);
-        } else {
+        }
+        else
+        {
             conta = new ContaBancaria(numero, titular);
         }
 
@@ -104,7 +111,8 @@ switch (codigo) {
         int nStudents = int.Parse(Console.ReadLine());
         Console.WriteLine();
 
-        for (int i = 0; i < nStudents; i++) {
+        for (int i = 0; i < nStudents; i++)
+        {
             c = new Cliente();
             Console.WriteLine("Rent #" + (i + 1).ToString());
             Console.Write("Name: ");
@@ -119,12 +127,14 @@ switch (codigo) {
 
         Console.WriteLine("Busy rooms:");
 
-        for (int i = 0; i < rooms.Length; i++) {
-            if (rooms[i] != null) {
+        for (int i = 0; i < rooms.Length; i++)
+        {
+            if (rooms[i] != null)
+            {
                 Console.WriteLine(rooms[i]);
             }
         }
-       
+
         break;
 
     case "C6E2":
@@ -134,7 +144,8 @@ switch (codigo) {
         int reg = int.Parse(Console.ReadLine());
         Console.WriteLine();
 
-        for (int i = 0; i < reg; i++) {
+        for (int i = 0; i < reg; i++)
+        {
             //e = new Employee();
             Console.WriteLine("Employee #" + (i + 1).ToString());
             Console.Write("Id: ");
@@ -152,11 +163,14 @@ switch (codigo) {
 
         Employee emp = list.Find(x => x.Id == searchId);
 
-        if (emp != null) {
+        if (emp != null)
+        {
             Console.Write("Enter the percentage : ");
             double perc = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             emp.IncreaseSalary(perc);
-        } else {
+        }
+        else
+        {
             Console.WriteLine("This id does not exist!");
         }
 
@@ -173,34 +187,43 @@ switch (codigo) {
 
         object[,] matriz = new object[m, n];
 
-        for (int i = 0; i < matriz.GetLength(0); i++) {
+        for (int i = 0; i < matriz.GetLength(0); i++)
+        {
             object[] colunas = Console.ReadLine().Split(' ');
 
-            for (int j = 0; j < colunas.Length; j++) {
+            for (int j = 0; j < colunas.Length; j++)
+            {
                 matriz[i, j] = colunas[j];
             }
         }
 
         string number = Console.ReadLine();
 
-        for (int i = 0; i < matriz.GetLength(0); i++) {
-            for (int j = 0; j < matriz.GetLength(1); j++) {
-                if (matriz.GetValue(i, j).ToString() == number) {
+        for (int i = 0; i < matriz.GetLength(0); i++)
+        {
+            for (int j = 0; j < matriz.GetLength(1); j++)
+            {
+                if (matriz.GetValue(i, j).ToString() == number)
+                {
                     Console.WriteLine($"Position {i},{j}:");
 
-                    if (j > 0 ) {
+                    if (j > 0)
+                    {
                         Console.WriteLine($"Left: {matriz.GetValue(i, j - 1)}");
                     }
 
-                    if (i > 0) {
+                    if (i > 0)
+                    {
                         Console.WriteLine($"Up: {matriz.GetValue(i - 1, j)}");
                     }
 
-                    if (j < n - 1) {
+                    if (j < n - 1)
+                    {
                         Console.WriteLine($"Right: {matriz.GetValue(i, j + 1)}");
                     }
 
-                    if (i < m - 1) {
+                    if (i < m - 1)
+                    {
                         Console.WriteLine($"Down: {matriz.GetValue(i + 1, j)}");
                     }
                 }
@@ -208,7 +231,7 @@ switch (codigo) {
         }
 
         break;
- 
+
     default:
         Console.WriteLine("Não foram encontrados exercícios com os índices especificados.");
         break;
