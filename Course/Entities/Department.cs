@@ -12,7 +12,6 @@ namespace Course.Entities
 
         public Department()
         {
-
         }
 
         public Department(string name)
