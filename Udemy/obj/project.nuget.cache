@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2NppbV9mPw3DGu4Xwajk2RV+rBJjE35yNaKezsZ6mWFlSJPgRwxOI/+U/u0Sge2nDnmAhxS7GREgB1NahvkIzw==",
+  "dgSpecHash": "70FgRnR9Vj4K+qPO1K2anqkSOCK8X2g533/BlhEp5Lio7NVroaoF2UQhqZxwxV8ZKfAbsdt9VK0IycdAs0YYYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\edson\\source\\repos\\Udemy\\Udemy\\Udemy.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\edson\\source\\repos\\Udemy\\Udemy\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
