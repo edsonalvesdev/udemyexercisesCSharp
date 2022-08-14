@@ -1,0 +1,15 @@
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\bin\Debug\net6.0\ExerciseCap9.exe
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\bin\Debug\net6.0\ExerciseCap9.deps.json
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\bin\Debug\net6.0\ExerciseCap9.runtimeconfig.json
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\bin\Debug\net6.0\ExerciseCap9.dll
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\bin\Debug\net6.0\ExerciseCap9.pdb
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ExerciseCap9.csproj.AssemblyReference.cache
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ExerciseCap9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ExerciseCap9.AssemblyInfoInputs.cache
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ExerciseCap9.AssemblyInfo.cs
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ExerciseCap9.csproj.CoreCompileInputs.cache
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ExerciseCap9.dll
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\refint\ExerciseCap9.dll
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ExerciseCap9.pdb
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ExerciseCap9.genruntimeconfig.cache
+C:\Users\edson\source\repos\Udemy\ExerciseCap9\obj\Debug\net6.0\ref\ExerciseCap9.dll
